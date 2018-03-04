@@ -30,7 +30,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="209" max="32767" attributes="0"/>
+                      <EmptySpace pref="139" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <Component id="jPanel1" pref="677" max="32767" attributes="0"/>
@@ -165,19 +165,30 @@
                           <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
-                              <Component id="jButton3" min="-2" pref="69" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jTextField1" pref="194" max="32767" attributes="0"/>
+                                  <Component id="jPasswordField1" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jButton3" min="-2" pref="95" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
-                          <Component id="jTextField1" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jPasswordField1" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jButton2" min="-2" pref="131" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -188,6 +199,7 @@
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                           <Component id="jTextField1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="0" min="-2" pref="31" max="-2" attributes="0"/>
                       </Group>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
@@ -199,13 +211,14 @@
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jPasswordField1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                                   <Component id="jLabel2" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton1" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
-                          <Component id="jButton3" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jButton1" alignment="0" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="jButton3" min="-2" pref="29" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -217,6 +230,9 @@
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\DELL\Documents\NetBeansProjects\Library Management System\images\login.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Login"/>
               </Properties>
@@ -249,6 +265,9 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="12" style="0"/>
                 </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\DELL\Documents\NetBeansProjects\Library Management System\images\signup.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Signup"/>
               </Properties>
               <Events>
@@ -260,11 +279,28 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="12" style="0"/>
                 </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\DELL\Documents\NetBeansProjects\Library Management System\images\forgot.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Forgot Passworod"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
               </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\DELL\Documents\NetBeansProjects\Library Management System\images\username.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\DELL\Documents\NetBeansProjects\Library Management System\images\password.png"/>
+                </Property>
+              </Properties>
             </Component>
           </SubComponents>
         </Container>

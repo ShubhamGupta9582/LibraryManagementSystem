@@ -18,7 +18,7 @@ public class NewStudent extends javax.swing.JFrame {
     public void Random(){
     
         Random rd = new Random();
-        jTextField1.setText("" + rd.nextInt(1001));
+        jTextField1.setText("" + rd.nextInt(10001));
     }
 
     
@@ -61,6 +61,7 @@ public class NewStudent extends javax.swing.JFrame {
         jLabel4.setText("Course");
 
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\DELL\\Documents\\NetBeansProjects\\Library Management System\\images\\register.png")); // NOI18N
         jButton1.setText("Register");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,6 +81,7 @@ public class NewStudent extends javax.swing.JFrame {
         jLabel6.setText("Year");
 
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\DELL\\Documents\\NetBeansProjects\\Library Management System\\images\\back.png")); // NOI18N
         jButton2.setText("Back");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -122,7 +124,7 @@ public class NewStudent extends javax.swing.JFrame {
                         .addGap(59, 59, 59)
                         .addComponent(jButton1)
                         .addGap(35, 35, 35)
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jButton2)))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(

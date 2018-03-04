@@ -92,6 +92,7 @@ public class Forgot extends javax.swing.JFrame {
         jLabel2.setText("User Name");
 
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\DELL\\Documents\\NetBeansProjects\\Library Management System\\images\\search.png")); // NOI18N
         jButton1.setText("Search");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -105,6 +106,7 @@ public class Forgot extends javax.swing.JFrame {
         jLabel3.setText("Your Security Question");
 
         jButton3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\DELL\\Documents\\NetBeansProjects\\Library Management System\\images\\back.png")); // NOI18N
         jButton3.setText("Back");
         jButton3.setPreferredSize(new java.awt.Dimension(75, 23));
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -146,7 +148,8 @@ public class Forgot extends javax.swing.JFrame {
         });
 
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jButton2.setText("Retrive");
+        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\DELL\\Documents\\NetBeansProjects\\Library Management System\\images\\Retrieve.png")); // NOI18N
+        jButton2.setText("Retrieve");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);

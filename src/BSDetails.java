@@ -126,6 +126,7 @@ public class BSDetails extends javax.swing.JFrame {
         );
 
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\DELL\\Documents\\NetBeansProjects\\Library Management System\\images\\back.png")); // NOI18N
         jButton1.setText("Back");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -145,7 +146,7 @@ public class BSDetails extends javax.swing.JFrame {
                 .addContainerGap())
             .addGroup(layout.createSequentialGroup()
                 .addGap(315, 315, 315)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jButton1)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(

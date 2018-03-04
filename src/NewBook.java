@@ -17,7 +17,7 @@ public class NewBook extends javax.swing.JFrame {
     public void Random(){
         
         Random rd = new Random();
-        jTextField1.setText("" + rd.nextInt(1001));
+        jTextField1.setText("" + rd.nextInt(10001));
     }
 
     
@@ -79,6 +79,7 @@ public class NewBook extends javax.swing.JFrame {
         jLabel7.setText("Author Name");
 
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\DELL\\Documents\\NetBeansProjects\\Library Management System\\images\\create.png")); // NOI18N
         jButton1.setText("Add");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -87,6 +88,7 @@ public class NewBook extends javax.swing.JFrame {
         });
 
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\DELL\\Documents\\NetBeansProjects\\Library Management System\\images\\back.png")); // NOI18N
         jButton2.setText("Back");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -130,9 +132,9 @@ public class NewBook extends javax.swing.JFrame {
                             .addComponent(jTextField6)))
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
                         .addGap(69, 69, 69)
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(40, 40, 40)
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jButton1)
+                        .addGap(31, 31, 31)
+                        .addComponent(jButton2)))
                 .addGap(20, 20, 20))
         );
         jPanel1Layout.setVerticalGroup(
